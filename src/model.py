@@ -2,7 +2,6 @@ import random
 import math
 
 from agent import Agent
-#from environment import grid, env_cell
 import environment
 
 '''
@@ -12,7 +11,6 @@ import environment
 
 masterHeight = 10
 masterWidth = masterHeight
-#masterWidth = 52
 
 class SlimeModel():
     def __init__(self, height, width):
